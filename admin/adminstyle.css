@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*menu*/
+.menu>ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu>ul>li{
+    padding: 15px;
+    background-color: blue;
+    cursor: pointer;
+}
+.menu>ul>li:hover{
+    background-color: red;
+}
+.menu>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+.product{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.faddproduct>td{
+    margin-left: 2px;
+}

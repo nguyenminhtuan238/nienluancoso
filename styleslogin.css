@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.nop{
+    text-align: center;
+    width: 500px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    padding: 30px;
+}
+.nop>h1{    
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-control{
+   position: relative;
+   height: 35px;
+   width: 300px;
+   outline: none;
+   border-radius: 5px;
+   font-size: 16px;
+   border: 1px solid #dadce0;
+   padding: 5px;
+}
+.btn{
+    width: 300px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: 1px solid #dadce0;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.nop>.addac{
+    display: flex;
+    padding: 5px;
+}
+.addac>p{
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+    margin-right: 5px;
+}
+.addac>a{
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: blue;
+}
+.form-group>p{
+    font-size: 13px;
+    color: red;
+  }
