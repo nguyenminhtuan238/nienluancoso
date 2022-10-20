@@ -96,7 +96,13 @@ if(isset($_POST['summitdk']) ){
         $error['paem']="Mật Khẩu và Email không được để trống";
     }
     
-}        
+} 
+## chi tiet product
+if(isset($_GET['product'])){
+$IDpd=$_GET['product'];
+$detailpd="SELECT * FROM `products` WHERE ID_pd=$IDpd";
+$resultdetail=$conn->query($detailpd); 
+}   
 ?>
 <header>
         <style>
