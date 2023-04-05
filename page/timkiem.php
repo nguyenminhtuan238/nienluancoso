@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include 'head.php' ?>
-    <title>Document</title>
+
     <style>
         .Main>h1{
             color: red;
             text-align: center;
         }
     </style>
-</head>
-<body>
-    <?php include 'header.php'?>
-    <main class="grid-container">
+    <div class="grid-container">
     <div class="Main"> 
             <div class="Main-l">
                 <p ><?= $_GET['catemh']  ?></p>
@@ -46,7 +39,4 @@
             <?php }?>
             </div>
     </div>
-</main>
-<?php include 'fooder.php'?>
-</body>
-</html>
+    </div>

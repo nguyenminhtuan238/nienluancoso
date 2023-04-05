@@ -1,8 +1,8 @@
 <?php
-session_start();
-if( !isset($_SESSION['Admin'])){
-    header('location:../index.php?login');
-}
+    session_start();
+    if( !isset($_SESSION['nhanvien'])){
+        header('location:../index.php?login');
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,17 +21,18 @@ if( !isset($_SESSION['Admin'])){
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" 
     integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" 
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <title>Admin</title>
+    <title>Nhân Viên</title>
 </head>
+
 <body>
     <?php include 'header.php';?>
-    <?php include 'menu.php';?>
-    <?php include 'content.php';?>
-    <?php include 'fooder.php';?>
-    <script src="admin.js"></script>
+    <div class="container mt-3">
+        <div class="row">
+            <?php include 'menu.php'; ?>
+            <?php include 'content.php' ?>
+        </div>
+    </div>
+    <?php include 'fooder.php'; ?>
 </body>
+
 </html>

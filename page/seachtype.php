@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include 'head.php';?>
-    <title>Document</title>
-</head>
-<body>
-<?php include 'header.php';?>
-<main class="grid-container">
+
+<div class="grid-container">
     <div class="Main"> 
             <?php
                  $querypd="SELECT * FROM `loai` 
@@ -40,7 +33,4 @@
             <?php }?>
             </div>
     </div>
-</main>
-<?php include 'fooder.php'?>
-</body>
-</html>
+</div>

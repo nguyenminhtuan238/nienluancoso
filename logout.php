@@ -3,11 +3,5 @@
     if(isset($_SESSION['Khachhang'])){
         unset($_SESSION['Khachhang']);
     }
-    if(isset($_SESSION['nhanvien'])){
-        unset($_SESSION['nhanvien']);
-    }
-    if(isset($_SESSION['Admin'])){
-        unset($_SESSION['Admin']);
-    }
-    header('location:login.php');
+    header('location:index.php?login');
 ?>

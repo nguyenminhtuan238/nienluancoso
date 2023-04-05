@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php include 'head.php'?>
-    <title>Dang nhap</title>
-    <link rel="stylesheet" type="text/css" href="styleslogin.css"> 
+
     <script>
        function frmValidate(frm){
             return frm.checkValidity();
@@ -75,10 +70,6 @@
           color: red;
         }
     </style>
-</head>
-<body>
-<?php include 'header.php'?>
-<main>
     <div class="container ">      
         <form method="post" enctype="multipart/form-data"  class="nop" 
                 onsubmit="return frmValidate(this)" >
@@ -118,12 +109,9 @@
                 </div>   
                 <div class="addac">
                 <p>Chưa có tài khoản?</p>
-                <a href="dk.php">Tạo tài khoản</a>
+                <a href="index.php?dk">Tạo tài khoản</a>
                 </div>
         </form>
        
     </div>     
-</main>
-<?php include 'fooder.php'?>
-</body>
-</html>
+

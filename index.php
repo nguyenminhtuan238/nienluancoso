@@ -1,17 +1,17 @@
-<?php if(isset($_SESSION['Khachhang'])){
-        header('location:checkout.php');
-    }
+<?php
+require 'connect.php'; 
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Trang CHu</title>
-    <?php include 'head.php' ?>
+    <?php include 'layout/head.php' ?>
+    <link rel="stylesheet" type="text/css" href="layout/styles.css"> 
+    <link rel="stylesheet" type="text/css" href="layout/styleslogin.css"> 
 </head>
 <body>
-    <?php include 'header.php'?>
-    <?php include 'content.php'?>
-    <?php include 'fooder.php'?>
+    <?php include 'layout/header.php'?>
+    <?php include 'layout/content.php'?>
+    <?php include 'layout/fooder.php'?>
 </body>
 
 </html>
